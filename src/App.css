@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  position: relative;
+  padding: 20px;
+}
+.profileBio {
+  display: block;
+  }
+  
+  
+  .btn-grad {background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%)}
+  .btn-grad {
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+  
+   }
+
+   .btn-grad:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+  
+  
+  
+
+.rounded-circle {
+  border-radius: 50%;
+  border-style: double;
+  width:250px ;
+  height: 200px;
+  display: block;
+  float: right;
+  filter: brightness(1.5);
+  margin: 0 200px 0 0;
+  }
+  .login-text {
+    font-size: 22px;
+    display:table;
+    margin-right: 20px;
+    margin-left: 100px;
+    
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
